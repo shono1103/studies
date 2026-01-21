@@ -1,0 +1,22 @@
+{
+	"name": "01_account",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"generate": "node scripts/generate_account.js",
+		"ls": "node scripts/ls_account.js",
+		"extract-private": "node scripts/extract_account.js privateKey",
+		"extract-public": "node scripts/extract_account.js publicKey",
+		"extract-address": "node scripts/extract_account.js address",
+		"sendXYM": "node scripts/sendXYM.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"dotenv": "^17.2.3",
+		"symbol-sdk": "^3.3.0"
+	}
+}
